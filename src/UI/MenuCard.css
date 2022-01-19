@@ -1,0 +1,101 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    max-width: 60rem;
+    width: 90%;
+    height: 16rem;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2rem auto;
+    overflow-y: scroll;
+}
+.card ul{
+    list-style: none;
+}
+.name{
+    font-weight: bold;
+}
+.description{
+    font-style: italic;
+    font-size: small;
+}
+.price{
+    color: orange;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 2px;
+}
+.sep{
+    margin-bottom: 1rem;
+    margin-top: -2.5rem;
+    margin-left: 35px;
+    Border-bottom: 1px solid rgb(228, 227, 227);
+    width: 94%;
+}
+
+.form{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: -4rem;
+    right: 1rem;
+}
+.form label{
+    font-size: small;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+.form input{
+    height: 1.5rem;
+    border-color: 0.1px grey;
+    margin-right: 1rem;
+}
+.formButton{
+    background-color: rgb(127,38,9);
+    color: white;
+    height: 1.8rem;
+    width: 2.4rem;
+    border-radius: 50px;
+    border: solid transparent;
+    position: relative;
+    bottom: 0.2rem;
+}
+.add{
+    cursor: pointer;
+}
+.remove{
+    cursor: not-allowed;
+}
+
+
+/*
+.form{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    margin-right: 2rem;
+    margin-top: -5rem;
+}
+.form label{
+    font-size: small;
+    font-weight: bold;
+}
+.form input{
+    height: 1.5rem;
+    margin-left: 1rem;
+    border-color: 0.1px grey;
+}
+.formButton{
+    background-color: rgb(127,38,9);
+    color: white;
+    height: 1.8rem;
+    width: 5rem;
+    border-radius: 50px;
+    border: solid transparent;
+    margin-top: 10px;
+    position: relative;
+    left: 85%;
+}
+*/

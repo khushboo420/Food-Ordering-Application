@@ -1,0 +1,16 @@
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: -11rem;
+}
+.content{
+    height: 10rem;
+    width: 36rem;
+    background:rgb(50,49,50);
+    color: white;
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: small;
+    position: relative;
+}

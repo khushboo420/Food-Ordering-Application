@@ -1,0 +1,53 @@
+.overlay{
+    background-color: rgba(0, 0, 0, 0.50);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.modalCard{
+    display: flex;
+    justify-content: center;
+    margin-top: -35rem;
+}
+.modalContent{
+    background-color: white;
+    height: auto;
+    max-width: 35rem;
+    width: 50%;   
+    position: relative;
+    border-radius: 10px;
+}
+.item{
+    margin: 1rem 1rem 0;
+}
+.amount{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    font-weight: bold;
+}
+.buttons{
+    height: 3rem;
+    display: flex;
+    justify-content: right;
+    margin-right: 2rem;
+    padding-bottom: 1rem;
+}
+.close{
+    width: 5rem;
+    border-radius: 50px;
+    border: 1px solid  brown;;
+    background-color: white;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.order{
+    width: 5rem;
+    border-radius: 50px;
+    border: solid transparent;
+    background-color:  brown;;
+    color: white;
+    cursor: not-allowed;
+}
+
